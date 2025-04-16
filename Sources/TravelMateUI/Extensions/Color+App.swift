@@ -14,4 +14,3 @@ public extension Color {
     static let CardBackground = Color(red: 200 / 255, green: 221 / 255, blue: 252 / 255) // #C8DDFC
     static let TextPrimary = Color(red: 44 / 255, green: 44 / 255, blue: 46 / 255) // #2C2C2E
 }
-
