@@ -58,7 +58,7 @@ public struct PrimaryButton: View {
             }
             .frame(maxWidth: .infinity)
             .frame(height: height)
-            .background(isEnabled ? Color.travelPrimaryButton : Color.gray.opacity(0.4))
+            .background(isEnabled ? Color.PrimaryButton : Color.gray.opacity(0.4))
             .cornerRadius(12)
         }
         .disabled(!isEnabled || isLoading)
