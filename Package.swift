@@ -18,7 +18,9 @@ let package = Package(
             name: "TravelMateUI",
             dependencies: [],
             path: "Sources",
-            resources: []
+            resources: [
+                    .process("TravelMateUI/Extensions/Assets") 
+                ]
         ),
         .testTarget(
             name: "TravelMateUITests",
